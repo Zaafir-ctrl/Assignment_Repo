@@ -5,6 +5,7 @@ Adapted from https://github.com/lupantech/ScienceQA
 from dataclasses import dataclass
 from typing import List, Optional
 
+
 def get_question_text(problem):
     question = problem['question']
     return question
